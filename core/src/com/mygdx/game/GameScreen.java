@@ -14,6 +14,7 @@ public class GameScreen extends ScreenAdapter {
     private Pacman pacman;
     World world;
 	private WorldRenderer worldRenderer;
+	private Object position;
  
     public GameScreen(PacmanGame pacmanGame) {
         this.pacmanGame = pacmanGame;
@@ -57,5 +58,6 @@ public class GameScreen extends ScreenAdapter {
     }
     
     
+   
 
 }
