@@ -59,6 +59,7 @@ public class Maze {
 
     public void removeDotAt(int r, int c) {
         hasDots[r][c] = false;
+        
     }
     
 }
